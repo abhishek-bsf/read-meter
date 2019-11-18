@@ -35,4 +35,4 @@ define('BSF_RT_PLUGIN_URL', untrailingslashit(plugins_url('', __FILE__)));
 require_once plugin_dir_path(__FILE__) . 'classes/class-bsfrt-loader.php';
 require_once plugin_dir_path(__FILE__) . 'classes/class-bsfrt-readtime.php';
 
-echo"welcome";
+print_r('expression')
